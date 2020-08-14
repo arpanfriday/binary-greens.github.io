@@ -65,6 +65,41 @@ body {
   box-shadow: 1px 1px 10px black;
 }
 
+.background {
+  background-color: rgb(22, 18, 16);
+  padding: 20px 0px;
+}
+
+.background img {
+  height: 30rem;
+}
+
+.card-body {
+  background-color: rgba(63, 39, 26, 0.904);
+  color: white;
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card img {
+  /* width: 100%;  */
+  transition: 0.3s all ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(1.025);
+  box-shadow: 1px 1px 10px black;
+}
+
+.card-line-divider {
+  background-color: rgb(97, 82, 62);
+}
 
 
 
